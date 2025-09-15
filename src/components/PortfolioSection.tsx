@@ -136,7 +136,7 @@ const PortfolioSection = () => {
             Portfolio Showcase
           </h2>
           <div className="w-16 sm:w-20 h-1 bg-gold rounded-full mx-auto mb-4 sm:mb-6"></div>
-          <p className="font-body text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
+          <p className="font-display font-light text-lg sm:text-xl text-black/50 italic max-w-2xl mx-auto px-4">
             A glimpse into our world of bespoke bridal couture
           </p>
         </div>

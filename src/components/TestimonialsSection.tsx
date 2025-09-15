@@ -89,7 +89,7 @@ const TestimonialsSection = () => {
             Real Brides, Real Stories
           </h2>
           <div className="w-16 sm:w-20 h-1 bg-gold rounded-full mx-auto mb-4 sm:mb-6"></div>
-          <p className="font-body text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
+          <p className="font-display font-light text-lg sm:text-xl text-black/50 italic max-w-2xl mx-auto px-4">
             Hear from the beautiful brides who trusted us with their special day
           </p>
         </div>
@@ -104,7 +104,7 @@ const TestimonialsSection = () => {
                     <Quote className="w-8 h-8 text-primary mb-4 mx-auto" />
                     
                     <div className="text-center">
-                      <p className="font-body text-sm text-foreground mb-6 leading-relaxed italic px-2">
+                      <p className="font-display font-light text-sm text-black/50 mb-6 leading-relaxed italic px-2">
                         "{testimonial.text}"
                       </p>
                       
@@ -133,7 +133,7 @@ const TestimonialsSection = () => {
             <Quote className="w-8 sm:w-12 h-8 sm:h-12 text-[#F4BBC9] mb-4 sm:mb-6 mx-auto" />
             
             <div className="text-center px-12">
-              <p className="font-body text-lg sm:text-xl text-foreground mb-6 sm:mb-8 leading-relaxed italic px-2">
+              <p className="font-display font-light text-lg sm:text-xl text-black/50 mb-6 sm:mb-8 leading-relaxed italic px-2">
                 "{testimonials[currentIndex].text}"
               </p>
               

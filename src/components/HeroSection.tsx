@@ -45,7 +45,7 @@ const HeroSection = () => {
         <button
           onClick={scrollToContact}
           aria-label="Book a consultation for bridal gowns"
-          className="bg-gold text-white hover:text-white p-2 sm:p-3 rounded-lg font-semibold text-xs md:text-lg hover:bg-primary/90 transition-all duration-500 hover:shadow-luxury hover:scale-105"
+          className="bg-transparent text-white hover:text-white p-2 sm:p-3 rounded-lg font-semibold text-xs md:text-lg  transition-all duration-500 hover:shadow-luxury hover:scale-105"
         >
           Book a Consultation
         </button>

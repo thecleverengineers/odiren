@@ -33,7 +33,7 @@ const ContactSection = () => {
             Begin Your Bridal Journey
           </h2>
           <div className="w-16 sm:w-20 h-1 bg-gold rounded-full mx-auto mb-4 sm:mb-6"></div>
-          <p className="font-body text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
+          <p className="font-display font-light text-lg sm:text-xl text-black/50 italic max-w-2xl mx-auto px-4">
             Ready to create your dream gown? Let's start this beautiful journey together
           </p>
         </div>

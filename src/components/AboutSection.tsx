@@ -33,7 +33,7 @@ const AboutSection = () => {
               <div className="w-16 sm:w-20 h-1 bg-gold rounded-full mb-6 sm:mb-8"></div>
             </div>
 
-            <div className="space-y-4 sm:space-y-6 font-body text-base sm:text-md text-muted-foreground leading-relaxed">
+            <div className="space-y-4 sm:space-y-6 font-body text-base sm:text-md font-display font-light text-black/50 leading-relaxed">
               <p>
                 Meet <span className="text-gold font-medium">Odirenla Walling</span>, 
                 the visionary behind <span className="text-gold font-medium">ODIREN</span>. With over a decade of passion for couture, 

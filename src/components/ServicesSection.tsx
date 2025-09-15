@@ -36,7 +36,7 @@ const ServicesSection = () => {
             Our Services
           </h2>
           <div className="w-16 sm:w-20 h-1 bg-gold rounded-full mx-auto mb-4 sm:mb-6"></div>
-          <p className="font-body text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
+          <p className="font-display font-light italic text-lg sm:text-xl text-black/50 max-w-2xl mx-auto px-4">
             From bespoke creations to ready-to-wear elegance, we offer comprehensive bridal solutions
           </p>
         </div>
@@ -57,13 +57,13 @@ const ServicesSection = () => {
                 </h3>
               </div>
 
-              <p className="body text-muted-foreground mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
+              <p className="font-display font-light text-muted-foreground mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
                 {service.description}
               </p>
 
               <ul className="space-y-2">
                 {service.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} className="flex items-center font-body text-sm text-muted-foreground">
+                  <li key={featureIndex} className="flex items-center body text-sm text-muted-foreground font-thin">
                     <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
                     {feature}
                   </li>
