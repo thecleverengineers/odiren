@@ -49,9 +49,10 @@ const ServicesSection = () => {
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="mb-4 sm:mb-6">
-                <div className="w-16 h-16 bg-[#F4BBC9] rounded-xl flex items-center justify-center mb-4 group-hover:bg-gold transition-colors duration-300">
-                  <service.icon className="w-8 h-8 text-white" />
+                <div className="cursor-pointer w-16 h-16 bg-[#F4BBC9] hover:bg-white text-white hover:text-[#F4BBC9] hover:border-[#F4BBC9] border-2 border-transparent rounded-xl flex items-center justify-center mb-4 transition-colors duration-300">
+                  <service.icon className="w-8 h-8" />
                 </div>
+
                 <h3 className="text-xl sm:text-xl font-normal uppercase text-foreground mb-3">
                   {service.title}
                 </h3>

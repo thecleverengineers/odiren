@@ -45,7 +45,7 @@ const Navigation = () => {
           </div>
           
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex space-x-8">
+          <div className="hidden lg:flex space-x-6">
             {navItems.map((item) => (
               <button
                 key={item.id}
@@ -82,7 +82,7 @@ const Navigation = () => {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="font-body text-left text-foreground hover:text-primary transition-colors duration-300 py-2"
+                  className="nav text-left text-foreground hover:text-primary transition-colors duration-300 py-2"
                 >
                   {item.label}
                 </button>

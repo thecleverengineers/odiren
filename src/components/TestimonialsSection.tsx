@@ -144,19 +144,19 @@ const TestimonialsSection = () => {
               </div>
             </div>
 
-            <button
-              onClick={goToPrevious}
-              className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 bg-primary rounded-full flex items-center justify-center text-primary-foreground hover:bg-gold transition-colors duration-300"
-            >
-              <ChevronLeft className="text-white w-5 h-5 sm:w-6 sm:h-6" />
-            </button>
-            
-            <button
-              onClick={goToNext}
-              className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 bg-primary rounded-full flex items-center justify-center text-primary-foreground hover:bg-gold transition-colors duration-300"
-            >
-              <ChevronRight className="text-white w-5 h-5 sm:w-6 sm:h-6" />
-            </button>
+<button
+  onClick={goToPrevious}
+  className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 bg-[#F4BBC9] hover:bg-white text-white hover:text-[#F4BBC9] hover:border-[#F4BBC9] border-2 border-transparent rounded-full flex items-center justify-center transition-colors duration-300"
+>
+  <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
+</button>
+
+<button
+  onClick={goToNext}
+  className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 bg-[#F4BBC9] hover:bg-white text-white hover:text-[#F4BBC9] hover:border-[#F4BBC9] border-2 border-transparent rounded-full flex items-center justify-center transition-colors duration-300"
+>
+  <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
+</button>
           </div>
 
           <div className="flex justify-center space-x-2 mt-8">
