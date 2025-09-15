@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'AmsterdamVar3';
+  src: url('/src/fonts/Amsterdam\ Variation_3.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Odiren Bridal Design System - Romantic luxury bridal aesthetics */
+
+@layer base {
+  :root {
+    /* Base colors - soft ivory and warm neutrals */
+    --background: 35 30% 98%;
+    --foreground: 20 15% 25%;
+    --card: 35 30% 98%;
+    --card-foreground: 20 15% 25%;
+    --popover: 35 30% 98%;
+    --popover-foreground: 20 15% 25%;
+    --primary: 349 70% 89%;
+    --primary-foreground: 345 40% 25%;
+    /* --primary-foreground:  345 72% 85%; */
+    --secondary: 35 25% 92%;
+    --secondary-foreground: 35 30% 30%;
+    --muted: 35 20% 95%;
+    --muted-foreground: 20 35% 65%;
+    --accent: 45 65% 75%;
+    --accent-foreground: 45 40% 20%;
+    --blush: 345 50% 90%;
+    --blush-foreground: 345 60% 25%;
+    --gold: 45 75% 65%;
+    --gold-foreground: 45 40% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 35 20% 88%;
+    --input: 35 20% 88%;
+    --ring: 345 35% 85%;
+    --radius: 0.75rem;
+    --gradient-romantic: linear-gradient(135deg, hsl(var(--blush)), hsl(var(--accent)));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--accent)));
+    --shadow-soft: 0 4px 20px hsl(var(--primary) / 0.1);
+    --shadow-luxury: 0 8px 40px hsl(var(--gold) / 0.15);
+    --shadow-romantic: 0 6px 30px hsl(var(--blush) / 0.2);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-romantic: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "trajan-pro-3", serif; /* Default font for body */
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  /* Elegant typography */
+  .font-display {
+    font-family: "trajan-pro-3", serif; /* For titles/headings */
+    font-weight: 700;
+  }
+
+  .font-body {
+    font-family: "trajan-pro-3", serif; /* For paragraphs/body */
+    font-weight: 400;
+  }
+
+  /* Romantic script (optional, if you still want Parisienne for accents) */
+  .font-parisienne {
+    font-family: 'Parisienne', cursive;
+  }
+  h1{
+    font-family: "trajan-pro-3", serif;
+    font-style: normal;
+    letter-spacing: -2px;
+  }
+  h3{
+    font-family: "trajan-pro-3", serif;
+    font-style: normal;
+  }
+  p, .body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nav{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .para{
+    font-family: 'AmsterdamVar3', cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* letter-spacing: .2rem; */
+  }
+
+  /* Smooth scrolling for navigation */
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  /* Animations and effects stay unchanged... */
+}
