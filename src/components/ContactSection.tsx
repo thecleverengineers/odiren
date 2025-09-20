@@ -106,7 +106,7 @@ const ContactSection = () => {
             <h4 className="text-lg sm:text-xl font-semibold text-foreground mb-4">
               Consultation Process
             </h4>
-            <ul className="space-y-2 sm:space-y-3 font-body text-muted-foreground text-sm sm:text-base">
+            <ul className="space-y-2 sm:space-y-3 body text-muted-foreground text-sm sm:text-base">
               <li className="flex items-center">
                 <div className="w-2 h-2 bg-gold rounded-full mr-3"></div>
                 Initial consultation to discuss your vision

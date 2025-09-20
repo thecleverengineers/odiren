@@ -33,23 +33,23 @@ const AboutSection = () => {
               <div className="w-16 sm:w-20 h-1 bg-gold rounded-full mb-6 sm:mb-8"></div>
             </div>
 
-            <div className="space-y-4 sm:space-y-6 font-body text-base sm:text-md font-display font-light text-black/50 leading-relaxed">
+            <div className="space-y-4 sm:space-y-6 font-body text-base sm:text-md font-display font-light text-black/60 leading-relaxed">
               <p>
-                Meet <span className="text-gold font-medium">Odirenla Walling</span>, 
-                the visionary behind <span className="text-gold font-medium">ODIREN</span>. With over a decade of passion for couture, 
+                Meet <span className="text-gold font-normal">Odirenla Walling</span>, 
+                the visionary behind <span className="text-gold font-normal">ODIREN</span>. With over a decade of passion for couture, 
                 she has transformed dreams into reality through her exquisite bridal designs.
               </p>
               
               <p>
-                Her journey began with formal training at <span className="text-gold font-medium">INIFD Guwahati</span> and 
-                continued with advanced studies at <span className="text-gold font-medium">Mei Sewcial House Vietnam</span>, 
+                Her journey began with formal training at <span className="text-gold font-normal">INIFD Guwahati</span> and 
+                continued with advanced studies at <span className="text-gold font-normal">Mei Sewcial House Vietnam</span>, 
                 where she mastered the art of bespoke tailoring and luxury fabric handling.
               </p>
               
               <p>
                 Today, from her atelier in Dimapur, Nagaland, Odirenla creates one-of-a-kind 
                 gowns that celebrate each bride's unique story. Her vision is simple yet profound: 
-                <em className="text-gold">"To create gowns that are as individual as the love stories they celebrate."</em>
+                <em className="text-gold font-normal">"To create gowns that are as individual as the love stories they celebrate."</em>
               </p>
             </div>
 

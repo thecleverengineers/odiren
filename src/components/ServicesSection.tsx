@@ -58,13 +58,13 @@ const ServicesSection = () => {
                 </h3>
               </div>
 
-              <p className="font-display font-light text-muted-foreground mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
+              <p className="body text-sm text-muted-foreground mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
                 {service.description}
               </p>
 
               <ul className="space-y-2">
                 {service.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} className="flex items-center body text-sm text-muted-foreground font-thin">
+                  <li key={featureIndex} className="flex items-center body text-sm text-black/60">
                     <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
                     {feature}
                   </li>

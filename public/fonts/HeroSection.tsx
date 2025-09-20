@@ -33,12 +33,12 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-5xl mx-auto mt-4 px-6 sm:px-8 animate-fade-in">
-        <h1 className="text-3xl sm:text-4xl uppercase md:text-6xl lg:text-6xl font-light text-[#f3f0e6] mt-[50px] leading-tight">
+        <h1 className="text-3xl sm:text-4xl uppercase md:text-6xl lg:text-6xl font-light text-[#f3f0e6] mt-[50px]  leading-tight">
           Where Elegance
           <span className="block text-gold mt-4">Meets Emotion</span>
         </h1>
 
-        <p className="subHeading sm:bottom-4 text-[26px] sm:text-[60px] text-white mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4">
+        <p className="relative bottom-1 sm:bottom-4 para text-[32px] sm:text-[60px] text-white mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4">
           <span className="text-[20px] sm:text-[50px] px-1">H</span>andcrafted gowns for the bride who dreams in detail
         </p>
 

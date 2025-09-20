@@ -1,29 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* local */
 @font-face {
   font-family: 'AmsterdamVar3';
-  src: url('/public/fonts/AmsterdamVar3.ttf') format('truetype');
+  src: url('/src/fonts/Amsterdam\ Variation_3.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-/* Deployment */
-/* @font-face {
-  font-family: 'AmsterdamVar3';
-  src: url('/fonts/AmsterdamVariation3.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
 
 
-/* 
-@font-face {
-  font-family: 'Molahesta';
-  src: url('/src/fonts/Molahesta.otf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} 
-*/
 
 @tailwind base;
 @tailwind components;
@@ -46,7 +28,7 @@
     --secondary: 35 25% 92%;
     --secondary-foreground: 35 30% 30%;
     --muted: 35 20% 95%;
-    --muted-foreground: 20 35% 55%;
+    --muted-foreground: 20 35% 65%;
     --accent: 45 65% 75%;
     --accent-foreground: 45 40% 20%;
     --blush: 345 50% 90%;
@@ -94,27 +76,29 @@
     font-weight: 400;
   }
 
+  /* Romantic script (optional, if you still want Parisienne for accents) */
+  .font-parisienne {
+    font-family: 'Parisienne', cursive;
+  }
   h1{
     font-family: "trajan-pro-3", serif;
     font-style: normal;
     letter-spacing: -2px;
-    color: black;
   }
   h3{
     font-family: "trajan-pro-3", serif;
     font-style: normal;
   }
   p, .body{
-    font-family: 'berthold-baskerville-pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 200;
   }
   .nav{
     font-family: 'trajan-pro-3', sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  .subHeading{
+  .para{
     font-family: 'AmsterdamVar3', cursive;
     font-weight: 400;
     font-style: normal;
