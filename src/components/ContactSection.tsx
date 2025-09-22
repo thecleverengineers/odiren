@@ -42,7 +42,7 @@ const ContactSection = () => {
           {/* Contact Information */}
           <div className="space-y-6 sm:space-y-8 animate-slide-up">
             <div>
-              <h3 className="text-2xl sm:text-3xl font-normal text-foreground mb-6 sm:mb-8">
+              <h3 className="text-2xl sm:text-3xl tracking-normal font-normal text-foreground mb-6 sm:mb-8">
                 Get in Touch
               </h3>
               
@@ -53,7 +53,7 @@ const ContactSection = () => {
                     <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="body font-medium text-foreground mb-1 text-sm sm:text-base">Visit Our Atelier</h4>
+                    <h4 className="body font-medium tracking-normal text-foreground mb-1 text-sm sm:text-base">Visit Our Atelier</h4>
                     <p className="body text-muted-foreground text-sm sm:text-base">
                       Kuda B, Half Nagarjan<br />
                       Dimapur, Nagaland
@@ -67,7 +67,7 @@ const ContactSection = () => {
                     <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="body font-medium text-foreground mb-1 text-sm sm:text-base">Call Us</h4>
+                    <h4 className="body font-medium tracking-normal text-foreground mb-1 text-sm sm:text-base">Call Us</h4>
                     <p className="body text-muted-foreground text-sm sm:text-base">+91 9863656508</p>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ const ContactSection = () => {
                     <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="body font-medium text-foreground mb-1 text-sm sm:text-base">Email Us</h4>
+                    <h4 className="body font-medium tracking-normal text-foreground mb-1 text-sm sm:text-base">Email Us</h4>
                     <p className="body text-muted-foreground text-sm sm:text-base">odirenwalling51@gmail.com</p>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const ContactSection = () => {
                     <Instagram className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="body font-medium text-foreground mb-1 text-sm sm:text-base">Follow Us</h4>
+                    <h4 className="body font-medium tracking-normal text-foreground mb-1 text-sm sm:text-base">Follow Us</h4>
                     <a href="https://www.instagram.com/odiren__?utm_source=ig_web_button_share_sheet&igsh=bnAxMTNuYW5wMWhr" target="_blank" rel="noopener noreferrer">
                       <p className="body text-muted-foreground text-sm sm:text-base">@odiren__</p>
                     </a>
@@ -103,7 +103,7 @@ const ContactSection = () => {
 
           {/* Consultation Info */}
           <div className="bg-card p-6 sm:p-8 rounded-2xl border border-border shadow-soft">
-            <h4 className="text-lg sm:text-xl font-semibold text-foreground mb-4">
+            <h4 className="text-lg sm:text-xl tracking-normal font-semibold text-foreground mb-4">
               Consultation Process
             </h4>
             <ul className="space-y-2 sm:space-y-3 body text-muted-foreground text-sm sm:text-base">
