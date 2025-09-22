@@ -38,7 +38,7 @@ const HeroSection = () => {
           <span className="block text-gold mt-4">Meets Emotion</span>
         </h1>
 
-        <p className="subHeading sm:bottom-4 text-[26px] sm:text-[60px] text-white mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4">
+        <p className="subHeading relative top-2 sm:top-4 text-[14px] sm:text-[30px] text-white mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4">
           <span className="text-[20px] sm:text-[50px] px-1">H</span>andcrafted gowns for the bride who dreams in detail
         </p>
 

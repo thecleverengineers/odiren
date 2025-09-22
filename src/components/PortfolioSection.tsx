@@ -204,7 +204,7 @@ const PortfolioSection = () => {
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center">
                   <div className="text-center text-white transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-                    <h3 className="font-display text-xl font-semibold mb-2">{item.title}</h3>
+                    <h3 className="font-display text-white text-xl font-semibold mb-2">{item.title}</h3>
                     <p className="font-body text-sm mb-3 px-4">{item.description}</p>
                     <div className="inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-xs font-medium">
                       View Details
@@ -218,7 +218,7 @@ const PortfolioSection = () => {
                 </div>
               </div>
               <div className="p-6 bg-card">
-                <h3 className="text-xl text-[#6F4E37] text-foreground mb-2">
+                <h3 className="text-xl text-[#6F4E37] font-light text-foreground mb-2">
                   {item.title}
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
@@ -262,7 +262,7 @@ const PortfolioSection = () => {
               </div>
 
               <div className="mt-4 text-white text-center">
-                <h3 id="lightbox-title" className="text-2xl font-medium mb-2">
+                <h3 id="lightbox-title" className="text-2xl text-white font-medium mb-2">
                   {portfolioItems[selectedImage].title}
                 </h3>
                 <p id="lightbox-description" className="body text-white/90 mb-3 max-w-lg mx-auto">

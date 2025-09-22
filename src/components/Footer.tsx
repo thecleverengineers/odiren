@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12 mb-8 sm:mb-12">
           {/* Brand */}
           <div className="space-y-3 sm:space-y-4 sm:col-span-2 lg:col-span-1">
-            <h3 className="font-display text-2xl sm:text-3xl font-bold">ODIREN</h3>
+            <h3 className="font-display text-white tracking-normal text-2xl sm:text-3xl font-bold">ODIREN</h3>
             <p className="font-body text-background/80 leading-relaxed text-sm sm:text-base">
               Creating timeless elegance for the modern bride. Every gown tells a story, 
               and we're here to help you write yours.
@@ -38,7 +38,7 @@ const Footer = () => {
 
           {/* Services */}
           <div className="space-y-3 sm:space-y-4">
-            <h4 className="font-display text-lg sm:text-xl font-semibold">Our Services</h4>
+            <h4 className="font-display text-white tracking-normal text-lg sm:text-xl font-semibold">Our Services</h4>
             <ul className="space-y-1 sm:space-y-2 font-body text-background/80 text-sm sm:text-base">
               <li>Bespoke Bridal Gowns</li>
               <li>Bridesmaids Dresses</li>
@@ -51,7 +51,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div className="space-y-3 sm:space-y-4">
-            <h4 className="font-display text-lg sm:text-xl font-semibold">Visit Us</h4>
+            <h4 className="font-display text-white tracking-normal text-lg sm:text-xl font-semibold">Visit Us</h4>
             <div className="space-y-2 sm:space-y-3 font-body text-background/80 text-sm sm:text-base">
               <p>
                 Kuda B, Half Nagarjan<br />
@@ -59,7 +59,7 @@ const Footer = () => {
               </p>
               <p>Phone: +91 9863656508</p>
               <p>Email: odirenwalling51@gmail.com</p>
-              <p className="text-xs sm:text-sm pt-2">
+              <p className="text-xs font-light sm:text-sm pt-2">
                 <strong>By Appointment Only</strong><br />
                 Monday - Saturday: 10:00 AM - 6:00 PM
               </p>
