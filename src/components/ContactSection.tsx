@@ -93,7 +93,7 @@ const ContactSection = () => {
                     <a href="https://www.instagram.com/odiren__?utm_source=ig_web_button_share_sheet&igsh=bnAxMTNuYW5wMWhr" target="_blank" rel="noopener noreferrer">
                       <p className="body mb-1 text-muted-foreground text-sm sm:text-base">@odiren__</p>
                     </a>
-                    <a href="https://www.instagram.com/odiren__?utm_source=ig_web_button_share_sheet&igsh=bnAxMTNuYW5wMWhr" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/odiren_bridal?utm_source=ig_web_button_share_sheet&igsh=MWxyaWx1MWI4OW80bw==" target="_blank" rel="noopener noreferrer">
                       <p className="body text-muted-foreground text-sm sm:text-base">@odiren_bridal</p>
                     </a>
                   </div>
