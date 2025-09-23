@@ -18,7 +18,7 @@ const AboutSection = () => {
             
             {/* Decorative Quote */}
             <div className="absolute -bottom-8 -right-2 sm:-right-8 bg-primary p-6 rounded-xl shadow-luxury max-w-[300px] sm:max-w-xs">
-              <p className="font-display text-lg italic text-black/60">
+              <p className="font-display text-sm sm:text-lg italic text-black/60">
                 "Every gown is a story, delicately tailored to you."
               </p>
             </div>
