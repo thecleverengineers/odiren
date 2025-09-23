@@ -245,7 +245,7 @@ const PortfolioSection = () => {
                 className="absolute -top-6 sm:-top-4 -right-2 sm:right-0 text-white hover:text-primary transition-colors duration-300 z-10"
                 aria-label="Close lightbox"
               >
-                <X className="w-6 h-6" />
+                <X className="w-4 h-4 sm:w-6 sm:h-6" />
               </button>
               
               <div 
